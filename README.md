@@ -1,2 +1,7 @@
-# pk-pjn
-Cracow University of Technology - Natural Language Processing
+# pk-to
+
+Politechnika Krakowska / Cracow University of Technology  
+Wydział Informatyki i Telekomunikacji / Faculty of Computer Science and Telecommunications
+
+Semestr 7 / Semester 7
+Przetwarzanie języka naturalnego / Natural Language Processing
