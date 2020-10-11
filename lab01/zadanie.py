@@ -100,11 +100,10 @@ def main():
     # wyrazów w kolekcji `formy` typu `collections.Counter`
     # i rysowanie wykresów częstości ich wystąpień oraz pokrycia
     # przez nie tekstu.
-    wyrazy_podstawowe = []
-    for wyraz in wyrazy:
-        wyrazy_podstawowe.append(jednoznaczna_forma_podstawowa(wyraz))
-
-    formy = collections.Counter(wyrazy_podstawowe)
+    formy = collections.Counter()
+    for wyraz in podaj_wyrazy(KSIĄŻKA):
+        forma = jednoznaczna_forma_podstawowa(wyraz)
+        formy[forma] += 1
 
     # częstość wystąpień - formy podstawowe
     plt.xscale('log')
