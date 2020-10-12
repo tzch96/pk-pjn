@@ -82,7 +82,7 @@ def main():
 
     plt.xscale('log')
     plt.yscale('linear')
-    y = [0]
+    y = []
     # TU(6): narysować półlogarytmiczny wykres pokrycia tekstu
     # przez wyrazy. N-ty element tablicy `y` ma być równy sumie
     # częstości wyrazów od najczęstszego do N-tego pod względem
@@ -108,7 +108,7 @@ def main():
     # częstość wystąpień - formy podstawowe
     plt.xscale('log')
     plt.yscale('log')
-    y = [0]
+    y = []
 
     for _, ile_wystąpień in formy.most_common():
         y.append(ile_wystąpień / długość_tekstu)
@@ -119,7 +119,7 @@ def main():
     # pokrycie tekstu - formy podstawowe
     plt.xscale('log')
     plt.yscale('linear')
-    y = [0]
+    y = []
 
     suma = 0
     for _, ile_wystąpień in formy.most_common():
